@@ -6,8 +6,8 @@
 
 
 #### course table
-|number |Class|Link|
-|-|-|-|
-|1|mark down and tags|[link](./classes/class1.md)
+|date|lecture number|lecture name|Link|
+|-|-|-|-|
+|27/5/2025|1|mark down and html intro|[link](./classes/class1.md)
 
 
