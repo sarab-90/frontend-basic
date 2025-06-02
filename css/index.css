@@ -1,0 +1,93 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    line-height:.15;
+}
+h1{
+    color: darkslategrey;
+    font-size: 100px;
+    /* نوع الخط */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+h2,p1,p2{
+    color:blueviolet;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.3;
+
+}
+img{
+    /* نوع عرض العنصر */
+    display: block; 
+    margin: 20px auto;
+    width: auto;
+    height: auto;
+    /* زوايا مستديرة */
+    border-radius: 50px;
+    /* ظل للصورة */
+    box-shadow: 0 0  10px;
+
+}
+
+a{
+    color: darkblue;
+
+    background-color: rgb(185, 181, 181);
+    font-size:large;
+    border: 1px;
+    /*الهامش الداخلي   */
+    padding: 20px;
+    text-decoration: none;
+}
+button{
+    display: block;
+    margin: auto;
+    padding: 20px;
+    font-size: 40px;
+    background-color:rgb(185, 181, 181);
+    color: darkblue;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all;
+}
+button:hover{
+    background-color: rgb(240, 160, 160);
+}
+/* id */
+/* class */
+.bluelink{
+    color: black;
+    font-size:20px;
+}
+a:hover{
+    background-color: rgb(239, 157, 188);
+    font-size:large;
+}
+#google:hover{
+    background-color: burlywood;
+}
+p:hover{
+    background-color: azure;
+}
+.language-list{
+    color: darkgreen;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2;      
+}
+.language-list{
+    color: rgb(48, 67, 15);
+    line-height: 1.5;
+    font-size: larger;
+}
+.style-table{
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 18px;
+    min-width: 800px;
+    min-height: 100px;
+}

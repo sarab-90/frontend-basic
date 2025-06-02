@@ -10,5 +10,6 @@
 |-|-|-|-|
 |27/5/2025|1|mark down and html intro|[link](./classes/class1.md)
 |30/5/2025|2|forms|[link](./classes/forms.html)
+|1/6/2025|3|introdoction to CSS|[link](./css/index.css)
 
 
