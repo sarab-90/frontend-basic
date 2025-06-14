@@ -1,0 +1,87 @@
+body{
+    background-attachment: fixed;
+    background-color: rgb(159, 196, 159);
+}
+.link-box{
+    width: 1200px;
+    margin: auto;
+    padding: 50px 10px;
+    border: 20px saddlebrown;
+    border-radius: 10px;
+    background-color: bisque;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    
+}
+
+a{
+    display: inline-block;
+    padding: 10px;
+    width: 200px;
+    height: 10px;
+    text-align: center;
+    line-height: 10px;
+    text-decoration: none;
+    border: 2px solid #8e1b1b;
+    border-radius: 10px;
+    color: burlywood;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+    margin: 4px;
+
+}
+.link1{
+    color: rgb(97, 53, 53);
+    border-color: rgb(199, 110, 15);
+}
+.link1:hover{
+    background-color: rgb(74, 211, 165);
+    color: rgb(169, 112, 112);
+}
+.link2{
+    color: darkorchid;
+    border-color: blue;
+}
+.link2:hover{
+    background-color: hotpink;
+    color: gray;
+}
+.link3{
+    color: maroon;
+    border-color: rgb(112, 112, 216);
+}
+.link3:hover{
+    background-color: rgb(28, 181, 181);
+    color: darkgoldenrod;
+}
+.link4{
+    color: lightskyblue;
+    border-color: purple;
+}
+.link4:hover{
+    background-color: darkkhaki;
+    color: darkgreen;
+}
+.picture{
+    width: 1200px;
+    height: 700px;
+    text-align: center;
+    display: block;
+    border: 20px rgba(13, 26, 114, 0.386);
+    border-radius: 10px;
+    object-fit: cover;
+    margin: auto;
+    background-color: rgb(234, 206, 169);
+
+
+}
+img{
+    display: inline-block;
+    width: 320px;
+    height: 500px;
+    box-shadow: 0 0 10px;
+    
+}

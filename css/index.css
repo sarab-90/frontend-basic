@@ -5,12 +5,15 @@ body{
     line-height:.15;
 }
 h1{
+    margin: 20px auto;
+    background-color: rgb(237, 180, 93);
     color: darkslategrey;
     font-size: 100px;
     /* نوع الخط */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     font-weight: bold;
+    line-height: normal;
 }
 h2,p1,p2{
     color:blueviolet;
@@ -92,6 +95,7 @@ p:hover{
     text-decoration: none;
     padding: 2px 4px;
     border-radius: 3px;
+    margin: auto;
 }
 .style-table{
     border-collapse: collapse;
@@ -109,4 +113,16 @@ label{
     margin-bottom: 5px;
     font-size: 14px;
     line-height: normal;
+}
+#intro{
+    background-color: cornflowerblue;
+    height: 300px;
+    margin: auto;
+    width: 600px;
+}
+#intro>button{
+    width: 100px;
+}
+#intro button{
+    width: 200px;
 }
