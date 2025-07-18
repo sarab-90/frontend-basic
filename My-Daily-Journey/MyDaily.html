@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Planner</title>
+    <link rel="stylesheet" href="./myDailyStyle.css">
+
+</head>
+<body>
+    <header id="header1">
+        <div class="page">
+            <img src="https://png.pngtree.com/png-vector/20240203/ourmid/pngtree-abstract-light-violet-blob-element-png-image_11597669.png" width="200" alt="Logo">
+            <h1 class="pageTitle">My Daily Journey</h1>
+            <img src="https://png.pngtree.com/png-vector/20240203/ourmid/pngtree-abstract-light-violet-blob-element-png-image_11597669.png" width="200" alt="Logo">
+        </div>
+
+        <nav id="nav">
+            <a href="./Home.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./MyDaily.html">Daily Planner</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./login.html">Login</a>
+        </nav>
+    </header>
+    <main id="daily-planner">
+        <h2>🗓️ Daily Planner</h2>
+        <input type="text" placeholder="Day / Date">
+
+        <table class="table-content">
+            <thead>
+                <tr>
+                    <th>🌞 Morning</th>
+                    <th>☀️ Noon</th>
+                    <th>🍃 Afternoon</th>
+                    <th>🌇 Evening</th>
+                    <th>🌚 Night</th>
+                    <th>☁️ Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <!-- morning -->
+                    <td>
+                        <ol>
+                        <li><input type="text" placeholder="Morning Routine/morning-azkar"></li>
+                        <li><input type="text" placeholder="Drink Water-cups"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text" placeholder="Take Vitamin"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text"></li>
+                        </ol>
+                    </td>
+                    <!-- noon -->
+                    <td>
+                        <ol>
+                        <li><input type="text"></li>
+                        <li><input type="text" placeholder="Drink Water-cups"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text"></li>
+                        </ol>
+                    </td>
+                    <!-- afternoon -->
+                    <td>
+                        <ol>
+                        <li><input type="text"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text" placeholder="Drink Water-cups"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text"></li>
+                        </ol>
+                    </td>
+                    <!-- evening -->
+                    <td>
+                        <ol>
+                        <li><input type="text"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text" placeholder="Drink Water-cups"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text"></li>
+                        </ol></td>
+                        <!--night  -->
+                    <td>
+                        <ol>
+                        <li><input type="text" placeholder="Night Routine/evening-azkar"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text" placeholder="Drink Water-cups"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text" placeholder="Take Vitamin"></li>
+                        <li><input type="text"></li>
+                        </ol>
+                    </td>
+                    <!-- notes -->
+                    <td>
+                        <ol>
+                        <li><input type="text" placeholder="How many water cups?"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text"></li>
+                        <li><input type="text"></li>
+                        </ol>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="workship">
+        <section id="prayer">
+            <h2>🕌Prayer Times</h2>
+            <!-- لاحقا ظهور لوقت تلقائي -->
+                <label><input type="checkbox"> Fajr</label>
+                <label><input type="checkbox">Dhuha</label>
+                <label><input type="checkbox"> Dhuhr</label>
+                <label><input type="checkbox"> Asr</label>
+                <label><input type="checkbox"> Maghrib</label>
+                <label><input type="checkbox"> Isha</label>
+        </section>
+
+        <section id="adhkar">
+            <h2>AL Adhkar</h2>
+            <h3>😎Morning Adhkar : <a href="https://www.do3atalsham.com/wp-content/uploads/2024/09/0006719.jpg">Click</a></h2>
+            <h3>🌑Evening Adhkar : <a href="https://www.do3atalsham.com/wp-content/uploads/2024/09/0006718.jpg">Click</a></h2>
+        </section>
+        </div>
+
+        <div class="morning">
+        <section id="morning-routine">
+            <h2>🌞 Morning Routine</h2>
+            <label><input type="checkbox">wake up early</label>
+            <label><input type="checkbox">Shower</label>
+            <label><input type="checkbox">Drink Water</label>
+            <label><input type="checkbox">Take vitamin/medicine</label>
+            <label><input type="checkbox">Morning Adhkar</label>
+        </section>
+
+        <section id="exercise">
+            <h2>🏃🏻‍♀️ Exercise</h2>
+            <label for="exercise-type">Type of Exercise:</label>
+            <input type="text" id="exercise-type" placeholder="e.g,walking, Gym">
+
+            <label for="exercise-time">Duration(minutes):</label>
+            <input type="number" id="exercise-time" min="0">
+        </section>
+        </div>
+
+        <div class="meals-sec">
+        <section id="meals">
+            <h2>🍽️ what Did You Eat Today?</h2>
+            
+            <label for="breakfast">🍳Breakfast :</label>
+            <input type="text" id="breakfast" placeholder="what Did You Eat?">
+
+            <label for="lunch">🍲Lunch :</label>
+            <input type="text" id="lunch" placeholder="what Did You Eat?">
+
+            <label for="dinner">🥗Dinner:</label>
+            <input type="text" id="dinner" placeholder="what Did You Eat?">
+
+            <label for="snacks">🍒Snacks :</label>
+            <input type="text" id="snacks" placeholder="what Did You Eat?">
+        </section>
+        </div>
+
+        <div class="reading-sec">
+        <section id="reading">
+            <h2>Quran Reading</h2>
+            <label>Surah :</label>
+            <input type="text" placeholder="Surah name">
+            
+            <label>From Ayah :</label>
+            <input type="number">
+            
+            <label>To Ayah :</label>
+            <input type="number">
+
+            <h2>📚Books Reading</h2>
+            <input type="text" placeholder="book name ">
+            <input type="number" placeholder="page number you read">
+        </section>
+        </div>
+
+        <div class="evening-sec">
+        <section id="skincare">
+            <h2>🫧Skincare</h2>
+            <label><input type="checkbox">Cleanser</label>
+            <label><input type="checkbox">Toner</label>
+            <label><input type="checkbox">Serum</label>
+            <label><input type="checkbox">Moisturizer</label>
+            <label><input type="checkbox">Sunscreem</label>
+        </section>
+
+        <section id="Evening-routine">
+            <h2>🌠 Evening Routine</h2>
+                <label><input type="checkbox">Skincare</label>
+                <label><input type="checkbox">Evening Adhkar</label>
+                <label><input type="checkbox">Prepare for the next day</label>
+                <label><input type="checkbox">Sleep Early</label>
+        </section>
+        </div>
+
+        <div class="mood-sec">
+        <section id="mood">
+            <h2>Today's Mood :</h2>
+            <select >
+                <option>😊 Happy</option>
+                <option>😐 Neutral</option>
+                <option>😔 Sad</option>
+                <option>😤 Stressed</option>
+            </select>
+        </section>
+
+        <section id="do-nt">
+            <h2>🏆 Things I Got Done Today</h2>
+            <textarea placeholder="Write what you got done today......"></textarea>
+            <h3>🕳️ Things I didn't Get Done </h3>
+            <textarea placeholder="Write what you didn't get done......"></textarea>
+        </section>
+        </div>
+        
+        <section class="save-sec">
+            <button onclick="GoalsIHaveCompleted()" type="submit">📧 Save My day</button>
+        </section>
+    </main>
+
+
+
+    <footer id="footer" >
+        <p>Made with 🩷 by [Sarab]</p>
+        <p>©️ 2025 My Daily Journey </p>
+    </footer>
+    <script src="./JS.js"></script>
+</body>
+</html>

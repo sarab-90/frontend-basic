@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="page">
+            <img src="https://png.pngtree.com/png-vector/20240203/ourmid/pngtree-abstract-light-violet-blob-element-png-image_11597669.png" width="200" alt="Logo">
+            <h1 class="pageTitle">My Daily Journey</h1>
+            <img src="https://png.pngtree.com/png-vector/20240203/ourmid/pngtree-abstract-light-violet-blob-element-png-image_11597669.png" width="200" alt="Logo">
+        </div>
+
+        <nav id="nav">
+            <a href="./Home.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./MyDaily.html">Daily Planner</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./login.html">Login</a>
+        </nav>
+    </header>
+    <main class="contact">
+        <h1>💌 Send Us a Message</h1>
+        <form id="contactForm">
+            <label for="name">Name</label>
+            <input type="text" id="name"required>
+            
+            <label for="email">Email </label>
+            <input type="email" id="email" required>
+            
+            <label for="message">Message</label>
+            
+            <textarea id="message" rows="9" required></textarea>
+            
+            <button onclick="confirmationMessage()" type="submit" id="send">Send</button>
+        </form>
+    </main>
+    
+    <footer id="footer" >
+        <p>Made with 🩷 by [Sarab]</p>
+        <p>©️ 2025 My Daily Journey </p>
+    </footer>
+    <script src="./JS.js"></script>
+</body>
+</html>

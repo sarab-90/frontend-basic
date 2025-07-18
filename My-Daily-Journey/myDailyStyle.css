@@ -1,0 +1,293 @@
+body{
+    font-family: 'segoe UI', sans-serif ;
+    background-color: #f3f3eb;
+    color: #444;
+    margin: 0px;
+    padding: 0px;
+    line-height: 3;
+
+}
+/* home page */
+#header1{
+    background-color: #f0dfeb;
+    padding: 30px;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 8px 10px #b96adb;
+    text-align: center;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* عنوان صفحة */
+.pageTitle{
+    font-size: 35px;
+    color: #444;
+    margin: 0;
+    font-weight: bold;
+}
+/* صورة */
+.page img{
+    max-width: 150px;
+    height: auto;
+}
+/* شريط التنقل */
+#nav{
+    margin-top: 20px;
+}
+#nav a{
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    color: #5a2a4e; 
+    font-size: 20px;
+}
+#nav a:hover{
+    color: white;
+    border-bottom: 2px solid #e5d1d1;
+    text-decoration: underline;
+    color: rgb(143, 86, 170);
+}
+/* main -جدول */
+#daily-planner{
+    max-width: 1500px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 12px ;
+    box-shadow: 0 0 14px #aaaaaa;
+}
+/* table */
+#daily-planner h2{
+    margin-top: 30px;
+    border-bottom: 2px solid #cd98b2;
+    padding-bottom: 5px;
+}
+#daily-planner input{
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    margin: 6px 0 12px;
+    border: 2px solid #575555;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+#daily-planner table{
+    width: 100%;
+}
+#daily-planner table th ,td{
+    border: 1px solid #7b609f;
+    padding: 10px;
+    vertical-align: top;
+}
+#daily-planner ol{
+    padding-left: 20px;
+}
+
+#daily-planner button:hover{
+    background-color: #b898a2;
+}
+/* اوقات صلاة والاذكار */
+.workship{
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 4px 8px #ccc;
+}
+#prayer{
+    background-color: #f0dfeb;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+
+#prayer label{
+    display: inline-block;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+#adhkar{
+    text-align: center;
+    width: 300px;
+    background-color: #f0dfeb;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+#adhkar a:hover{
+    background-color: aliceblue;
+}
+/* روتين صباح والرياضة */
+.morning{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    /* background-color: #f0dfeb; */
+    box-shadow: 0 4px 10px #ccc;
+}
+.morning section{
+    background-color: #f0dfeb;
+    padding: 20px;
+    border: 2px solid #272426;
+    border-radius: 14px;
+}
+#morning-routine label{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#exercise label{
+    display: inline-block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+#exercise input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #908e8e;
+    box-sizing: border-box;
+}
+.meals-sec{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px #7a7777;
+}
+#meals{
+    background-color: #f0dfeb;
+    padding: 20px;
+    border: 2px solid #353434;
+    border-radius: 8px;
+}
+#meals label{
+    margin: 12px ;
+    font-size: 20px;
+    font-weight: bold;
+}
+#meals input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #413f3f;
+    box-sizing: border-box;
+}
+.reading-sec{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px #7a7777;
+    background-color: #f0dfeb;
+}
+#reading{
+    padding: 20px;
+    border: 2px solid #413f3f;
+    border-radius: 10px;
+    background-color: #f3f3eb;
+}
+#reading label{
+    margin: 12px 6px;
+    font-weight: bold;
+    font-size: 18px;
+}
+#reading input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 2px solid #5c5b5b;
+    box-sizing: border-box;
+}
+.evening-sec{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px #7b609f;
+}
+.evening-sec section{
+    padding: 20px;
+    border: 2px solid #5c5b5b;
+    border-radius: 10px;
+    background-color: #f0dfeb;
+}
+#skincare label{
+    margin-right: 140px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#Evening-routine label{
+    margin-right: 80px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.mood-sec{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px #7b609f;
+}
+.mood-sec section{
+    width: 700px;
+    background-color: #f0dfeb;
+    padding: 20px;
+    border: 2px solid #5c5b5b;
+    border-radius: 10px;
+}
+#mood select{
+    width: 100%;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 1px solid #ebe6e6;    
+}
+#do-nt textarea{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#daily-planner input[type="checkbox"]{
+    width: 20px;
+    margin-right: 8px;
+    font-size: large;
+    font-weight: bold;
+}
+/* زر الحفظ  */
+.save-sec{
+    text-align: center;
+    margin: 30px 0;
+}
+.save-sec button{
+    background-color: #cdb3ef;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+}

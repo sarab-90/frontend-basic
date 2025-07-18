@@ -1,0 +1,245 @@
+body{
+    font-family: 'segoe UI', sans-serif ;
+    background-color: #f3f3eb;
+    color: #444;
+    margin: 0px;
+    padding: 0px;
+    line-height: 3;
+
+}
+/* home page */
+#header{
+    background-color: #f0dfeb;
+    padding: 30px;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 8px 10px #b96adb;
+    text-align: center;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* عنوان صفحة */
+.pageTitle{
+    font-size: 35px;
+    color: #444;
+    margin: 0;
+    font-weight: bold;
+}
+/* صورة */
+.page img{
+    max-width: 150px;
+    height: auto;
+}
+/* شريط التنقل */
+#nav{
+    margin-top: 20px;
+}
+#nav a{
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    color: #5a2a4e; 
+    font-size: 20px;
+}
+#nav a:hover{
+    border-bottom: 2px solid #ccc;
+    text-decoration: underline;
+    color: rgb(143, 86, 170);
+}
+/* صفحة رئيسية */
+.homeDiv{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+#home{
+    display: flex;
+    gap: 200px;
+    height: 100%;
+    padding: 50px;
+    border: 2px solid #6c3483;
+    border-radius: 40px;
+    box-shadow: 0 10px 10px #ccc;
+    margin-top: 70px;
+}
+#section{
+    background-color: #f0dfeb;
+    border-radius: 90px;
+    max-width: 700px;
+    padding: 20px;
+}
+#section h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+#section h2{
+    font-size: 19px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+#section p{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+#stratbtn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 35px;
+    border: 2px solid #7b609f;
+    background-color: #ebb9f2;
+    box-shadow: 7px #b898a2;
+}
+#stratbtn:hover{
+    background-color: #f1e9e9;
+}
+.image{
+    margin: 20px ;
+}
+#footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 50px;
+    border-top: 2px solid #ccc;
+    background-color: #f0dfeb;
+}
+#footer p{
+    margin: 5px 0;
+}
+/* signUp-main */
+#signUp-main{
+    margin: auto;
+    margin-top: 70px;
+    align-items: center;
+    padding: 30px;
+    border: 2px solid #542c63;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px #9d6878;
+    width: 600px;
+}
+#signUp-main h2{
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid #542c63;
+    border-radius: 25px;
+    background-color: #f0dfeb;
+}
+#signUp-main label{
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+#signUp-main input{
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    margin: 5px 0 12px;
+    border-radius: 7px;
+    border: 2px solid #575555;
+}
+#signUpForm button{
+    text-align: center;
+    margin-top: 20px;
+    width: 200px;
+    padding: 25px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #f0dfeb;
+}
+#signUpForm button:hover{
+    background-color: #bab9b9;
+}
+/* contact */
+.contact{
+    background-color: #f0dfeb;
+    margin: auto;
+    margin-top: 70px;
+    align-items: center;
+    padding: 30px;
+    border: 2px solid #542c63;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px #9d6878;
+    width: 600px;
+   
+}
+.contact h1{
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid #542c63;
+    border-radius: 25px;
+    background-color: #f3f3eb;
+}
+#contactForm label{
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+#contactForm input , textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 7px;
+    border: 2px solid #575555;    
+}
+#contactForm button{
+    color: #5a2a4e;
+    background-color: #f0dfeb;
+    text-align: center;
+    margin-top: 20px;
+    width: 200px;
+    padding: 25px;
+    border: 2px solid #542c63;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#contactForm button:hover{
+    background-color: #b898a2;
+}
+
+/* about */
+#objectives{
+    background-color: #f0dfeb;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px 30px;
+    border-radius: 18px;
+    box-shadow: 0 4px 12px #b898a2;
+    text-align: left;
+}
+#objectives h1{
+    border: 2px solid #bab9b9;
+    border-radius: 20px;
+    box-shadow: 0 0px 15px #ccc;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#objectives h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+#objectives ul{
+    list-style-type: "⭐";
+    margin-bottom: 15px;
+    padding-left: 25px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 3;
+}
